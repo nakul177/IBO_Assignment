@@ -59,7 +59,7 @@ const listOfProducts = [
 let result = getUniquePrducts(listOfProducts);
 console.log(result);
 
-function check(ProductArr, curr) {
+function fun(ProductArr, curr) {
   let Index = ProductArr.findIndex(
     (item) => item.productName === curr.productName
   );
