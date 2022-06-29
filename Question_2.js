@@ -22,7 +22,7 @@
 function getUniquePrducts(product) {
   let ProductArr = [];
   for (let i = 0; i < product.length; i++) {
-    check(ProductArr, product[i]);
+    fun(ProductArr, product[i]);
   }
 
   return ProductArr;
